@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Frame</title>
 <link href="https://cdn.staticfile.org/github-markdown-css/2.10.0/github-markdown.min.css" rel="stylesheet">
+<link href="nav.css" rel="stylesheet">
 <style>
 	.markdown-body {
 		box-sizing: border-box;
@@ -31,9 +32,16 @@
 </head>
 <body>
 
-  <div class="markdown-body">
-    <script>$.get((searchMap.md || 'readme.md'), function(text) { document.write(markdownit().render(text)); });</script>
-  </div>
+<ul class="nav">
+  <li><a href="#">Item1</a></li>
+  <li><a href="#">Item2</a></li>
+  <li><a href="#">Item3</a></li>
+  <li><a href="#">Item4</a></li>
+</ul>
+
+<div class="markdown-body">
+  <script>$.get((searchMap.md || 'index.md'), function(text) { document.write(markdownit().render(text)); });</script>
+</div>
 
 </body>
 </html>
