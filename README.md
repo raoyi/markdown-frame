@@ -28,3 +28,9 @@ Serving HTTP on 0.0.0.0 port 8000 ...
 ```
 
 然后就可以访问 `http://localhost:8000` 看到你想要的。
+
+## 本项目用到的第三方库
+
+* github-markdown-css
+* jquery
+* markdown-it
